@@ -5,4 +5,15 @@
   </PropertyGroup>
 
 
+  <ItemGroup>
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Infrastructure\Dtos\" />
+    <Folder Include="Infrastructure\ObjectsForBhd\" />
+    <Folder Include="Services\" />
+    <Folder Include="Enums\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.10.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-﻿namespace BhdPaymentButtonForSgs.Infrastructure.ObjectsResponsesFromBhd
+﻿namespace BhdPaymentButtonForSgs.Infrastructure.ObjectsForBhd
 {
     public class BhdPaymentButtonResponse
     {

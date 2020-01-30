@@ -1,10 +1,23 @@
-﻿using System;
+﻿using System.Threading.Tasks;
+using BhdPaymentButtonForSgs.Infrastructure.Dtos;
+using BhdPaymentButtonForSgs.Services;
+using Microsoft.AspNetCore.Mvc;
+
 namespace BhdPaymentButtonForSgs.Controllers
 {
-    public class BhdPaymentButtonController
+    [ApiController, Route("api/[controller]")]
+    public class BhdPaymentButtonController: ControllerBase
     {
-        public BhdPaymentButtonController()
+        readonly IBhdPaymentButtonService _bhdPaymentButtonService;
+        public BhdPaymentButtonController(IBhdPaymentButtonService bhdPaymentButtonService)
         {
+            _bhdPaymentButtonService = bhdPaymentButtonService;
+        }
+
+        [HttpPost("PayWithBhdButtonClient")]
+        public async Task<IActionResult> PayWithBhdButton([FromBody] BhdPaymentButtonApiDto dto)
+        {
+            return Ok(await _bhdPaymentButtonService.PayWithBhdButton(dto));
         }
     }
 }

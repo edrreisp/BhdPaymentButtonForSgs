@@ -1,10 +1,10 @@
-﻿using System;
-namespace BhdPaymentButtonForSgs.Enums
+﻿namespace BhdPaymentButtonForSgs.Enums
 {
-    public class RestaurantType
+    public enum RestaurantType
     {
-        public RestaurantType()
-        {
-        }
+        EXPRESS,
+        TERIYAKI,
+        TAMASHI,
+        ZENKITCHEN
     }
 }
