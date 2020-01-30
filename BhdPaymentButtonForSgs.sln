@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BhdPaymentButtonForSgs", "BhdPaymentButtonForSgs\BhdPaymentButtonForSgs.csproj", "{AADC6E0D-8F7B-4B3A-B4BF-B1762944A52D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AADC6E0D-8F7B-4B3A-B4BF-B1762944A52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADC6E0D-8F7B-4B3A-B4BF-B1762944A52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADC6E0D-8F7B-4B3A-B4BF-B1762944A52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADC6E0D-8F7B-4B3A-B4BF-B1762944A52D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
